@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\bin\Debug\SOP_DrawRandomLines.exe.config
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\bin\Debug\SOP_DrawRandomLines.exe
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\bin\Debug\SOP_DrawRandomLines.pdb
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.Form1.resources
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.Properties.Resources.resources
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.csproj.GenerateResource.cache
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.exe
+C:\Users\user\Documents\Banyik\SOP_DrawRandomLines\SOP_DrawRandomLines\obj\Debug\SOP_DrawRandomLines.pdb
