@@ -1,0 +1,10 @@
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\bin\Debug\SOP_SierpinskiTriangle.exe.config
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\bin\Debug\SOP_SierpinskiTriangle.exe
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\bin\Debug\SOP_SierpinskiTriangle.pdb
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.Form1.resources
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.Properties.Resources.resources
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.csproj.GenerateResource.cache
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.exe
+C:\Users\user\Documents\Banyik\SOP_SierpinskiTriangle\obj\Debug\SOP_SierpinskiTriangle.pdb
