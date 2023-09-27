@@ -1,0 +1,7 @@
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\bin\Debug\SOP_ProducerConsumerProblem.exe.config
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\bin\Debug\SOP_ProducerConsumerProblem.exe
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\bin\Debug\SOP_ProducerConsumerProblem.pdb
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\obj\Debug\SOP_ProducerConsumerProblem.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\obj\Debug\SOP_ProducerConsumerProblem.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\obj\Debug\SOP_ProducerConsumerProblem.exe
+C:\Users\user\Documents\Banyik\SOP_ProducerConsumerProblem\obj\Debug\SOP_ProducerConsumerProblem.pdb
