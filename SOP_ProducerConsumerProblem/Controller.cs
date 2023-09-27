@@ -41,7 +41,7 @@ namespace SOP_ProducerConsumerProblem
             product = null;
 
             Monitor.Enter(products);
-            while(products.Count == 0 || areProducersWorking)
+            while(products.Count == 0 && areProducersWorking)
             {
                 Console.WriteLine($"{consumer} is waiting...");
                 Monitor.Wait(products);
