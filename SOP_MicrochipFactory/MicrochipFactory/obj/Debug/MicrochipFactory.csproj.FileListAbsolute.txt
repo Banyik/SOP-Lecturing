@@ -1,0 +1,7 @@
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\bin\Debug\MicrochipFactory.exe.config
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\bin\Debug\MicrochipFactory.exe
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\bin\Debug\MicrochipFactory.pdb
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\obj\Debug\MicrochipFactory.csproj.AssemblyReference.cache
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\obj\Debug\MicrochipFactory.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\obj\Debug\MicrochipFactory.exe
+C:\Users\lenovo\source\repos\MicrochipFactory\MicrochipFactory\obj\Debug\MicrochipFactory.pdb
