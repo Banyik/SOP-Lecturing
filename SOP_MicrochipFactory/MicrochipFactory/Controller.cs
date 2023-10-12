@@ -57,7 +57,7 @@ namespace MicrochipFactory
                 }
             }
             while ((consumer.PackType == ChipType.NONE && products.Count == 0 && areProducersWorking) ||
-                    consumer.PackType != ChipType.NONE && products.Count > 0 && areProducersWorking && products[0].ChipType != consumer.PackType)
+                    (consumer.PackType != ChipType.NONE && products.Count > 0 && areProducersWorking && products[0].ChipType != consumer.PackType))
             {
                 Console.WriteLine($"{consumer} is waiting...");
                 Monitor.Wait(products);
