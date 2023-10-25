@@ -33,6 +33,8 @@ namespace Server
             reader = new StreamReader(client.GetStream());
             writer = new StreamWriter(client.GetStream());
 
+            clients.Add(this);
+
             clientFetch = new Thread(FetchCommands);
             clientFetch.Start();
 
