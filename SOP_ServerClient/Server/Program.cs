@@ -15,8 +15,14 @@ namespace Server
     {
         static bool listen = true;
         static TcpListener server;
+
+        private const string usersFile = "Users.xml";
+        private const string resourcesFile = "Resources.xml";
+
         static void Main(string[] args)
         {
+            User.LoadUsers(usersFile);
+            Resource.LoadResources(resourcesFile);
             IPAddress ip = IPAddress.Parse(ConfigurationManager.AppSettings["ip"].ToString());
             int port = int.Parse(ConfigurationManager.AppSettings["port"].ToString());
 
@@ -29,6 +35,11 @@ namespace Server
             Console.ReadLine();
 
             listen = false;
+            Client.KillAllClient();
+            server.Stop();
+            User.SaveUsers(usersFile);
+            Resource.SaveResources(resourcesFile);
+
         }
 
         static void WaitForClients()
@@ -38,35 +49,8 @@ namespace Server
                 if (server.Pending())
                 {
                     TcpClient client = server.AcceptTcpClient();
-                    new Thread(() => ManageClient(client)).Start();
+                    new Client(client);
                 }
-            }
-            Environment.Exit(Environment.ExitCode);
-        }
-
-        static void ManageClient(TcpClient client)
-        {
-            StreamReader reader = new StreamReader(client.GetStream());
-            StreamWriter writer = new StreamWriter(client.GetStream());
-
-            try
-            {
-                while (true)
-                {
-                    Console.WriteLine($"Received message: {reader.ReadLine()}");
-                    writer.WriteLine("Message received!");
-                    writer.Flush();
-                }
-            }
-            catch (Exception)
-            {
-            }
-            finally
-            {
-                reader.Close();
-                writer.Close();
-                client.Close();
-                Console.WriteLine("An error has occured while listening to the client...");
             }
         }
     }
