@@ -64,8 +64,8 @@ namespace Server
 
         private void ProcessCommand(string command)
         {
-            command = command.ToLower();
             string[] processedData = command.Split(' ');
+            processedData[0] = processedData[0].ToLower();
             switch (processedData[0])
             {
                 case "exit":
