@@ -9,8 +9,8 @@
     $connect = new mysqli($host, $user, $password, $dbname, $port, $socket)
         or die ("Connection has failed: ".mysqli_connect_error());
 
-    if($connect -> connect_errno> 0){
-        printf("Connection has failed %\n:", mysqli_connect_error);
+    if($connect -> connect_errno > 0){
+        printf("Connection has failed %\n:", $connect->connect_error);
         exit();
     }
 ?>
