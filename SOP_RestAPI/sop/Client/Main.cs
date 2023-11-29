@@ -18,9 +18,22 @@ namespace SOP_Client
             InitializeComponent();
             InitializeUsersDataGridView();
             RefreshUserData();
+            IsLoggedIn();
         }
 
         RestClient restClient = new RestClient("http://localhost/sop/server/users.php");
+        RestClient loginClient = new RestClient("http://localhost/sop/server/login.php");
+
+        bool IsLoggedIn()
+        {
+            if(CurrentUser.username == null)
+            {
+                ManageButtons(false);
+                new UserHandler(loginClient, this, RequestType.LOGIN).Show();
+                return false;
+            }
+            return true;
+        }
         void InitializeUsersDataGridView()
         {
             usersData.Columns.Add("id", "ID");
@@ -60,14 +73,29 @@ namespace SOP_Client
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            ManageButtons(false);
-            new UserHandler(restClient, this, RequestType.POST).Show();
+            if (IsLoggedIn())
+            {
+                ManageButtons(false);
+                new UserHandler(restClient, this, RequestType.POST).Show();
+            }
         }
 
         private void updateButton_Click(object sender, EventArgs e)
         {
-            ManageButtons(false);
-            new UserHandler(restClient, this, RequestType.PUT).Show();
+            if (IsLoggedIn())
+            {
+                ManageButtons(false);
+                new UserHandler(restClient, this, RequestType.PUT).Show();
+            }
+        }
+
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            if (IsLoggedIn())
+            {
+                ManageButtons(false);
+                new UserHandler(restClient, this, RequestType.DELETE).Show();
+            }
         }
 
         public void ManageButtons(bool enable)
@@ -75,6 +103,7 @@ namespace SOP_Client
             getButton.Enabled = enable;
             addButton.Enabled = enable;
             updateButton.Enabled = enable;
+            deleteButton.Enabled = enable;
         }
     }
 }

@@ -32,6 +32,7 @@
             this.usersData = new System.Windows.Forms.DataGridView();
             this.addButton = new System.Windows.Forms.Button();
             this.updateButton = new System.Windows.Forms.Button();
+            this.deleteButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.usersData)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,11 +74,22 @@
             this.updateButton.UseVisualStyleBackColor = true;
             this.updateButton.Click += new System.EventHandler(this.updateButton_Click);
             // 
+            // deleteButton
+            // 
+            this.deleteButton.Location = new System.Drawing.Point(685, 117);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(103, 29);
+            this.deleteButton.TabIndex = 4;
+            this.deleteButton.Text = "DELETE";
+            this.deleteButton.UseVisualStyleBackColor = true;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.updateButton);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.usersData);
@@ -95,6 +107,7 @@
         private System.Windows.Forms.DataGridView usersData;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button updateButton;
+        private System.Windows.Forms.Button deleteButton;
     }
 }
 

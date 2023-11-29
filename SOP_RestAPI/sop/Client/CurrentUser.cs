@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace SOP_Client
 {
-    internal class Response
+    public static class CurrentUser
     {
-        public int error { get; set; }
-        public string message { get; set; }
-        public List<User> Users { get; set; }
+        public static string username{ get; set; }
+        public static string password{ get; set; }
     }
 }

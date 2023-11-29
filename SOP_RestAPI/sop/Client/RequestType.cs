@@ -9,6 +9,8 @@ namespace SOP_Client
     public enum RequestType
     {
         POST,
-        PUT
+        PUT,
+        DELETE,
+        LOGIN
     }
 }
